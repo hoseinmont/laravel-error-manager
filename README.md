@@ -14,6 +14,14 @@ composer require hoeinmont/errormanager
     Usage
 </h2>
 
+```
+try {
+    // Error
+} catch (\Exception $e) {
+    new Hoseinmont\ErrorManager\ErrorManager($e);
+}
+
+```
 
 ## Credits
 

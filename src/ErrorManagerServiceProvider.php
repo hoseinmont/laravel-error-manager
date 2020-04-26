@@ -4,7 +4,7 @@ namespace Hoseinmont\ErrorManager;
 use Illuminate\Support\ServiceProvider;
 
 
-class ErrorManagerServicProvider extends ServiceProvider
+class ErrorManagerServiceProvider extends ServiceProvider
 {
     public function register()
     {

@@ -1,13 +1,14 @@
 {
     "name": "hoeinmont/errormanager",
     "description": "Error Manager from hoseinmont.ir",
-    "keywords": ["laravel","laravel","laravel6-package","PHP","laravel6"],
+    "keywords": ["errormanager","laravel-errormanager","laravel-package","PHP"],
     "homepage": "http://hoseinmont.ir",
     "license": "MIT",
     "authors": [
         {
-            "name": "hoseinmont",
-            "email": "hoseinmont@gmail.com"
+            "name": "hosein",
+            "email": "hoseinmont@gmail.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -16,6 +17,6 @@
         }
     },
     "require": {
-        "illuminate/support": "~6"
+        "laravel/framework": "5.*|6.*|7.*"
     }
 }

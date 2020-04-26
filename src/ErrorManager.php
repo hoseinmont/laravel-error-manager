@@ -15,10 +15,12 @@ class ErrorManager
 
     public function saveError($error)
     {
-        $model = new Error();
-        $model->text = $error->getMessage();
-        $model->address = $error->getFile();
-        $model->user_id = Auth::id();
-        $model->save();
+        try {
+            $model = new Error();
+            $model->text = $error->getMessage();
+            $model->address = $error->getFile();
+            $model->user_id = Auth::id();
+            $model->save();
+        } catch (\Exception $e) {}
     }
 }
